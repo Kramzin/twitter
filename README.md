@@ -1,2 +1,2 @@
-Twitter clone on Firebase ready
-https://impax-5c8de.web.app/
+react twitter clone
+deploy - https://impax-5c8de.web.app/
