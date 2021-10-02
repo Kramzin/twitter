@@ -1,8 +1,11 @@
 import firebase from "firebase";
+import "firebase/auth"
+import "firebase/database"
 
 const firebaseConfig = {
     apiKey: "AIzaSyDXZO5YupeJbju73X5SEfVcugtN1vRUqQg",
     authDomain: "impax-5c8de.firebaseapp.com",
+    databaseURL: "https://impax-5c8de-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "impax-5c8de",
     storageBucket: "impax-5c8de.appspot.com",
     messagingSenderId: "934652517324",
@@ -14,4 +17,4 @@ const firebaseConfig = {
 
   const db = firebaseApp.firestore();
 
-  export default db;
+ export default db;
